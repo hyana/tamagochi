@@ -1,0 +1,690 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8278F91A2B859FDA0027829C /* tamagochi Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 8278F9192B859FDA0027829C /* tamagochi Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		8278F91F2B859FDA0027829C /* tamagochiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8278F91E2B859FDA0027829C /* tamagochiApp.swift */; };
+		8278F9212B859FDA0027829C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8278F9202B859FDA0027829C /* ContentView.swift */; };
+		8278F9232B859FDC0027829C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8278F9222B859FDC0027829C /* Assets.xcassets */; };
+		8278F9262B859FDC0027829C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8278F9252B859FDC0027829C /* Preview Assets.xcassets */; };
+		8278F9302B859FDC0027829C /* tamagochi_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8278F92F2B859FDC0027829C /* tamagochi_Watch_AppTests.swift */; };
+		8278F93A2B859FDC0027829C /* tamagochi_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8278F9392B859FDC0027829C /* tamagochi_Watch_AppUITests.swift */; };
+		8278F93C2B859FDC0027829C /* tamagochi_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8278F93B2B859FDC0027829C /* tamagochi_Watch_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8278F91B2B859FDA0027829C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8278F90D2B859FDA0027829C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8278F9182B859FDA0027829C;
+			remoteInfo = "tamagochi Watch App";
+		};
+		8278F92C2B859FDC0027829C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8278F90D2B859FDA0027829C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8278F9182B859FDA0027829C;
+			remoteInfo = "tamagochi Watch App";
+		};
+		8278F9362B859FDC0027829C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8278F90D2B859FDA0027829C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8278F9182B859FDA0027829C;
+			remoteInfo = "tamagochi Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8278F9422B859FDC0027829C /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				8278F91A2B859FDA0027829C /* tamagochi Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8278F9132B859FDA0027829C /* tamagochi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tamagochi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8278F9192B859FDA0027829C /* tamagochi Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tamagochi Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8278F91E2B859FDA0027829C /* tamagochiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tamagochiApp.swift; sourceTree = "<group>"; };
+		8278F9202B859FDA0027829C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8278F9222B859FDC0027829C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8278F9252B859FDC0027829C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8278F92B2B859FDC0027829C /* tamagochi Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tamagochi Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8278F92F2B859FDC0027829C /* tamagochi_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tamagochi_Watch_AppTests.swift; sourceTree = "<group>"; };
+		8278F9352B859FDC0027829C /* tamagochi Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tamagochi Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8278F9392B859FDC0027829C /* tamagochi_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tamagochi_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		8278F93B2B859FDC0027829C /* tamagochi_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tamagochi_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8278F9162B859FDA0027829C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8278F9282B859FDC0027829C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8278F9322B859FDC0027829C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8278F90C2B859FDA0027829C = {
+			isa = PBXGroup;
+			children = (
+				8278F91D2B859FDA0027829C /* tamagochi Watch App */,
+				8278F92E2B859FDC0027829C /* tamagochi Watch AppTests */,
+				8278F9382B859FDC0027829C /* tamagochi Watch AppUITests */,
+				8278F9142B859FDA0027829C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8278F9142B859FDA0027829C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8278F9132B859FDA0027829C /* tamagochi.app */,
+				8278F9192B859FDA0027829C /* tamagochi Watch App.app */,
+				8278F92B2B859FDC0027829C /* tamagochi Watch AppTests.xctest */,
+				8278F9352B859FDC0027829C /* tamagochi Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8278F91D2B859FDA0027829C /* tamagochi Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				8278F91E2B859FDA0027829C /* tamagochiApp.swift */,
+				8278F9202B859FDA0027829C /* ContentView.swift */,
+				8278F9222B859FDC0027829C /* Assets.xcassets */,
+				8278F9242B859FDC0027829C /* Preview Content */,
+			);
+			path = "tamagochi Watch App";
+			sourceTree = "<group>";
+		};
+		8278F9242B859FDC0027829C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8278F9252B859FDC0027829C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8278F92E2B859FDC0027829C /* tamagochi Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				8278F92F2B859FDC0027829C /* tamagochi_Watch_AppTests.swift */,
+			);
+			path = "tamagochi Watch AppTests";
+			sourceTree = "<group>";
+		};
+		8278F9382B859FDC0027829C /* tamagochi Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8278F9392B859FDC0027829C /* tamagochi_Watch_AppUITests.swift */,
+				8278F93B2B859FDC0027829C /* tamagochi_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "tamagochi Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8278F9122B859FDA0027829C /* tamagochi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8278F9432B859FDC0027829C /* Build configuration list for PBXNativeTarget "tamagochi" */;
+			buildPhases = (
+				8278F9112B859FDA0027829C /* Resources */,
+				8278F9422B859FDC0027829C /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8278F91C2B859FDA0027829C /* PBXTargetDependency */,
+			);
+			name = tamagochi;
+			productName = tamagochi;
+			productReference = 8278F9132B859FDA0027829C /* tamagochi.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		8278F9182B859FDA0027829C /* tamagochi Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8278F93F2B859FDC0027829C /* Build configuration list for PBXNativeTarget "tamagochi Watch App" */;
+			buildPhases = (
+				8278F9152B859FDA0027829C /* Sources */,
+				8278F9162B859FDA0027829C /* Frameworks */,
+				8278F9172B859FDA0027829C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "tamagochi Watch App";
+			productName = "tamagochi Watch App";
+			productReference = 8278F9192B859FDA0027829C /* tamagochi Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8278F92A2B859FDC0027829C /* tamagochi Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8278F9462B859FDC0027829C /* Build configuration list for PBXNativeTarget "tamagochi Watch AppTests" */;
+			buildPhases = (
+				8278F9272B859FDC0027829C /* Sources */,
+				8278F9282B859FDC0027829C /* Frameworks */,
+				8278F9292B859FDC0027829C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8278F92D2B859FDC0027829C /* PBXTargetDependency */,
+			);
+			name = "tamagochi Watch AppTests";
+			productName = "tamagochi Watch AppTests";
+			productReference = 8278F92B2B859FDC0027829C /* tamagochi Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8278F9342B859FDC0027829C /* tamagochi Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8278F9492B859FDC0027829C /* Build configuration list for PBXNativeTarget "tamagochi Watch AppUITests" */;
+			buildPhases = (
+				8278F9312B859FDC0027829C /* Sources */,
+				8278F9322B859FDC0027829C /* Frameworks */,
+				8278F9332B859FDC0027829C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8278F9372B859FDC0027829C /* PBXTargetDependency */,
+			);
+			name = "tamagochi Watch AppUITests";
+			productName = "tamagochi Watch AppUITests";
+			productReference = 8278F9352B859FDC0027829C /* tamagochi Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8278F90D2B859FDA0027829C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					8278F9122B859FDA0027829C = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					8278F9182B859FDA0027829C = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					8278F92A2B859FDC0027829C = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 8278F9182B859FDA0027829C;
+					};
+					8278F9342B859FDC0027829C = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 8278F9182B859FDA0027829C;
+					};
+				};
+			};
+			buildConfigurationList = 8278F9102B859FDA0027829C /* Build configuration list for PBXProject "tamagochi" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8278F90C2B859FDA0027829C;
+			productRefGroup = 8278F9142B859FDA0027829C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8278F9122B859FDA0027829C /* tamagochi */,
+				8278F9182B859FDA0027829C /* tamagochi Watch App */,
+				8278F92A2B859FDC0027829C /* tamagochi Watch AppTests */,
+				8278F9342B859FDC0027829C /* tamagochi Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8278F9112B859FDA0027829C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8278F9172B859FDA0027829C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8278F9262B859FDC0027829C /* Preview Assets.xcassets in Resources */,
+				8278F9232B859FDC0027829C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8278F9292B859FDC0027829C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8278F9332B859FDC0027829C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8278F9152B859FDA0027829C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8278F9212B859FDA0027829C /* ContentView.swift in Sources */,
+				8278F91F2B859FDA0027829C /* tamagochiApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8278F9272B859FDC0027829C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8278F9302B859FDC0027829C /* tamagochi_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8278F9312B859FDC0027829C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8278F93C2B859FDC0027829C /* tamagochi_Watch_AppUITestsLaunchTests.swift in Sources */,
+				8278F93A2B859FDC0027829C /* tamagochi_Watch_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8278F91C2B859FDA0027829C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8278F9182B859FDA0027829C /* tamagochi Watch App */;
+			targetProxy = 8278F91B2B859FDA0027829C /* PBXContainerItemProxy */;
+		};
+		8278F92D2B859FDC0027829C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8278F9182B859FDA0027829C /* tamagochi Watch App */;
+			targetProxy = 8278F92C2B859FDC0027829C /* PBXContainerItemProxy */;
+		};
+		8278F9372B859FDC0027829C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8278F9182B859FDA0027829C /* tamagochi Watch App */;
+			targetProxy = 8278F9362B859FDC0027829C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8278F93D2B859FDC0027829C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8278F93E2B859FDC0027829C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		8278F9402B859FDC0027829C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"tamagochi Watch App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = tamagochi;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "not-hyena.tamagochi.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		8278F9412B859FDC0027829C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"tamagochi Watch App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = tamagochi;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "not-hyena.tamagochi.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		8278F9442B859FDC0027829C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_KEY_CFBundleDisplayName = tamagochi;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "not-hyena.tamagochi";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		8278F9452B859FDC0027829C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_KEY_CFBundleDisplayName = tamagochi;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "not-hyena.tamagochi";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8278F9472B859FDC0027829C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "not-hyena.tamagochi-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tamagochi Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/tamagochi Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		8278F9482B859FDC0027829C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "not-hyena.tamagochi-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tamagochi Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/tamagochi Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		8278F94A2B859FDC0027829C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "not-hyena.tamagochi-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "tamagochi Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		8278F94B2B859FDC0027829C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "not-hyena.tamagochi-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "tamagochi Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8278F9102B859FDA0027829C /* Build configuration list for PBXProject "tamagochi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8278F93D2B859FDC0027829C /* Debug */,
+				8278F93E2B859FDC0027829C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8278F93F2B859FDC0027829C /* Build configuration list for PBXNativeTarget "tamagochi Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8278F9402B859FDC0027829C /* Debug */,
+				8278F9412B859FDC0027829C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8278F9432B859FDC0027829C /* Build configuration list for PBXNativeTarget "tamagochi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8278F9442B859FDC0027829C /* Debug */,
+				8278F9452B859FDC0027829C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8278F9462B859FDC0027829C /* Build configuration list for PBXNativeTarget "tamagochi Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8278F9472B859FDC0027829C /* Debug */,
+				8278F9482B859FDC0027829C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8278F9492B859FDC0027829C /* Build configuration list for PBXNativeTarget "tamagochi Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8278F94A2B859FDC0027829C /* Debug */,
+				8278F94B2B859FDC0027829C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8278F90D2B859FDA0027829C /* Project object */;
+}
