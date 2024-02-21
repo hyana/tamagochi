@@ -23,15 +23,15 @@ struct MainTabView: View {
 
     var body: some View {
         TabView {
+        if !viewModel.showInteractiveView {
             HatchingView(viewModel: viewModel)
                 .tabItem {
                     Label("Step Count", systemImage: "figure.walk")
                 }
-            if viewModel.showInteractiveView {
-                InteractiveView(viewModel: viewModel)
-                    .tabItem {
-                        Label("Interactive", systemImage: "gamecontroller")
-                    }
+        }
+        InteractiveView(viewModel: viewModel)
+            .tabItem {
+                Label("Interactive", systemImage: "gamecontroller")
             }
         }
     }

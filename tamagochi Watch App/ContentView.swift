@@ -159,7 +159,7 @@ struct HatchingView: View {
         VStack {
             if viewModel.isEggHatched {
                 Text("Your egg has hatched!")
-                    .font(.title)
+                    .font(.headline)
                     .padding()
 
                 Button("Start") {
