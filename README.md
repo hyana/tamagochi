@@ -1,0 +1,2 @@
+# tamagochi
+Apple Watch Tamagotchi
