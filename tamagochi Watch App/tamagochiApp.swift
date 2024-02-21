@@ -9,9 +9,30 @@ import SwiftUI
 
 @main
 struct tamagochi_Watch_AppApp: App {
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainTabView()
+        }
+    }
+}
+    
+
+struct MainTabView: View {
+    @StateObject private var viewModel = TamagotchiViewModel()
+
+    var body: some View {
+        TabView {
+            HatchingView(viewModel: viewModel)
+                .tabItem {
+                    Label("Step Count", systemImage: "figure.walk")
+                }
+            if viewModel.showInteractiveView {
+                InteractiveView(viewModel: viewModel)
+                    .tabItem {
+                        Label("Interactive", systemImage: "gamecontroller")
+                    }
+            }
         }
     }
 }
