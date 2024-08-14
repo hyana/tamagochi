@@ -6,7 +6,7 @@
 //
 
 import XCTest
-@testable import tamagochi_Watch_App
+import tamagochi_Watch_App
 
 final class tamagochi_Watch_AppTests: XCTestCase {
 

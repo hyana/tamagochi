@@ -9,13 +9,26 @@
 /* Begin PBXBuildFile section */
 		8278F91A2B859FDA0027829C /* tamagochi Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 8278F9192B859FDA0027829C /* tamagochi Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		8278F91F2B859FDA0027829C /* tamagochiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8278F91E2B859FDA0027829C /* tamagochiApp.swift */; };
-		8278F9212B859FDA0027829C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8278F9202B859FDA0027829C /* ContentView.swift */; };
 		8278F9232B859FDC0027829C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8278F9222B859FDC0027829C /* Assets.xcassets */; };
 		8278F9262B859FDC0027829C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8278F9252B859FDC0027829C /* Preview Assets.xcassets */; };
 		8278F9302B859FDC0027829C /* tamagochi_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8278F92F2B859FDC0027829C /* tamagochi_Watch_AppTests.swift */; };
 		8278F93A2B859FDC0027829C /* tamagochi_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8278F9392B859FDC0027829C /* tamagochi_Watch_AppUITests.swift */; };
 		8278F93C2B859FDC0027829C /* tamagochi_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8278F93B2B859FDC0027829C /* tamagochi_Watch_AppUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXBuildRule section */
+		8241251E2B8645D80039FD69 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			fileType = pattern.proxy;
+			inputFiles = (
+			);
+			isEditable = 1;
+			outputFiles = (
+			);
+			script = "# Type a script or drag a script file from your workspace to insert its path.\n";
+		};
+/* End PBXBuildRule section */
 
 /* Begin PBXContainerItemProxy section */
 		8278F91B2B859FDA0027829C /* PBXContainerItemProxy */ = {
@@ -59,7 +72,6 @@
 		8278F9132B859FDA0027829C /* tamagochi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tamagochi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8278F9192B859FDA0027829C /* tamagochi Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tamagochi Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8278F91E2B859FDA0027829C /* tamagochiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tamagochiApp.swift; sourceTree = "<group>"; };
-		8278F9202B859FDA0027829C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8278F9222B859FDC0027829C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8278F9252B859FDC0027829C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8278F92B2B859FDC0027829C /* tamagochi Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tamagochi Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -119,7 +131,6 @@
 			isa = PBXGroup;
 			children = (
 				8278F91E2B859FDA0027829C /* tamagochiApp.swift */,
-				8278F9202B859FDA0027829C /* ContentView.swift */,
 				8278F9222B859FDC0027829C /* Assets.xcassets */,
 				8278F9242B859FDC0027829C /* Preview Content */,
 			);
@@ -197,6 +208,7 @@
 				8278F9292B859FDC0027829C /* Resources */,
 			);
 			buildRules = (
+				8241251E2B8645D80039FD69 /* PBXBuildRule */,
 			);
 			dependencies = (
 				8278F92D2B859FDC0027829C /* PBXTargetDependency */,
@@ -232,7 +244,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1500;
-				LastUpgradeCheck = 1500;
+				LastUpgradeCheck = 1520;
 				TargetAttributes = {
 					8278F9122B859FDA0027829C = {
 						CreatedOnToolsVersion = 15.0.1;
@@ -309,7 +321,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8278F9212B859FDA0027829C /* ContentView.swift in Sources */,
 				8278F91F2B859FDA0027829C /* tamagochiApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -386,6 +397,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -447,6 +459,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -474,9 +487,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"tamagochi Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 9FS3X8DQ8P;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = tamagochi;
+				INFOPLIST_KEY_NSHealthClinicalHealthRecordsShareUsageDescription = "Workout data for tamagochi";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Workout data for tamagochi";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKWatchOnly = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -503,9 +519,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"tamagochi Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 9FS3X8DQ8P;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = tamagochi;
+				INFOPLIST_KEY_NSHealthClinicalHealthRecordsShareUsageDescription = "Workout data for tamagochi";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Workout data for tamagochi";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKWatchOnly = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -531,6 +550,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9FS3X8DQ8P;
 				INFOPLIST_KEY_CFBundleDisplayName = tamagochi;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "not-hyena.tamagochi";
@@ -546,6 +566,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9FS3X8DQ8P;
 				INFOPLIST_KEY_CFBundleDisplayName = tamagochi;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "not-hyena.tamagochi";
@@ -563,6 +584,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9FS3X8DQ8P;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "not-hyena.tamagochi-Watch-AppTests";
@@ -583,6 +605,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9FS3X8DQ8P;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "not-hyena.tamagochi-Watch-AppTests";
@@ -603,6 +626,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9FS3X8DQ8P;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "not-hyena.tamagochi-Watch-AppUITests";
@@ -622,6 +646,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9FS3X8DQ8P;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "not-hyena.tamagochi-Watch-AppUITests";
