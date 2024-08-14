@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct tamagochi_Watch_AppApp: App {
+struct tamagochi_Watch_App: App {
 
     var body: some Scene {
         WindowGroup {
